@@ -12,7 +12,7 @@ const Button: React.FC<ButtonProps> = ({ as: Component = "button", href, classNa
   if (Component === Link && href) {
     return (
       <Link href={href} passHref>
-        <a className={`px-4 py-2 rounded ${className}`} {...props}>
+        <a href="#" className={`px-4 py-2 rounded ${className}`} {...props}>
           {children}
         </a>
       </Link>
