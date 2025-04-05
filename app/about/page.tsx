@@ -22,71 +22,92 @@ export default function AboutPage() {
         {/* Image sizing and responsiveness:
             - w-full: on mobile, images take full width
             - sm:w-5/12: on small screens, images take ~41% width (2 per row)
-            - lg:w-1/4: on large screens, images take 25% width (4 per row)
+            - md:w-1/3: on medium screens, images take ~33% width (3 per row)
+            - lg:w-1/5: on large screens, images take 20% width (effectively 4 per row with gaps)
             - max-w-80: limits maximum width to prevent overly large images
-            - lg:max-w-96: increases maximum width on large screens for better viewing
+            - lg:max-w-72: decreases maximum width on large screens to fit more in a row
             - aspect-square: maintains 1:1 ratio regardless of width
             - object-cover: ensures image fills space without distortion
             - rounded: adds subtle rounded corners */}
         <img 
           src="/images/saisha.jpg" 
           alt="Saisha" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/4 max-w-80 lg:max-w-96 aspect-square object-cover rounded" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
         />
         <img 
           src="/images/firstfootballgame.jpg" 
           alt="Image placeholder" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/4 max-w-80 lg:max-w-96 aspect-square object-cover bg-gray-200 rounded" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover bg-gray-200 rounded" 
         />
         <img 
           src="/images/07.24.2011beach.jpg" 
           alt="Image placeholder" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/4 max-w-80 lg:max-w-96 aspect-square object-cover bg-gray-200 rounded" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover bg-gray-200 rounded" 
         />
         <img 
           src="/images/valentines24.jpg" 
           alt="Image placeholder" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/4 max-w-80 lg:max-w-96 aspect-square object-cover bg-gray-200 rounded" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover bg-gray-200 rounded" 
         />
         <img
           src="/images/firstdanceperformance.png" 
           alt="Dance" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/4 max-w-80 lg:max-w-96 aspect-square object-cover rounded" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
         />
         <img 
           src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
           alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/4 max-w-80 lg:max-w-96 aspect-square object-cover rounded" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
         />
         <img 
           src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
           alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/4 max-w-80 lg:max-w-96 aspect-square object-cover rounded" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
         />
         <img 
           src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
           alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/4 max-w-80 lg:max-w-96 aspect-square object-cover rounded" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
         />
         <img 
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhJSLeRYwQGe_hW6KqyXyhm1B_4JW9UwSdlg&s" 
           alt="Reading" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/4 max-w-80 lg:max-w-96 aspect-square object-cover rounded" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
         />
         <img 
           src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
           alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/4 max-w-80 lg:max-w-96 aspect-square object-cover rounded" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
         />
         <img 
           src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
           alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/4 max-w-80 lg:max-w-96 aspect-square object-cover rounded" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
         />
         <img 
           src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
           alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/4 max-w-80 lg:max-w-96 aspect-square object-cover rounded" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
+        />
+        <img 
+          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+          alt="Taekwondo" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
+        />
+        <img 
+          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+          alt="Taekwondo" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
+        />
+        <img 
+          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+          alt="Taekwondo" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
+        />
+        <img 
+          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+          alt="Taekwondo" 
+          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
         />
       </div>
       
