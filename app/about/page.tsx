@@ -11,15 +11,15 @@ export default function AboutPage() {
   const facts = [
     "Paris has more bookstores per square mile than almost any other city in the world. The famous Shakespeare & Company bookstore has beds inside for writers to sleep in exchange for helping out in the shop.",
     "The scent you smell when rain hits dry ground is called petrichor",
-    "The average time spent Infrasound (sounds below human hearing) can be used in horror movie soundtracks to make viewers feel uneasy without realizing why.on (web)pages is 54 seconds, while [time spent on] blog posts average 3-5 minutes.",
-    "During the Cold War, ballet dancers were used as cultural ambassadors by the USSR and USA — seen as proof of cultural superiority.s the same way we have unique fingerprints.",
-    "Mirages happen more in summer heat due to refracted light over hot surfaces — they're not hallucinations but actual optical effects.do",
+    "The average time spent Infrasound (sounds below human hearing) can be used in horror movie soundtracks to make viewers feel uneasy without realizing why",
+    "During the Cold War, ballet dancers were used as cultural ambassadors by the USSR and USA — seen as proof of cultural superiority",
+    "Mirages happen more in summer heat due to refracted light over hot surfaces — they're not hallucinations but actual optical effects",
     "The Looking Glass Self theory (by Charles Horton Cooley) suggests we shape our identities based on how we think others see us — even if it's wrong.",
-    "Item 6",
-    "Item 7",
-    "Item 8",
-    "Item 9",
-    "Item 10"
+    "Cognitive dissonance is the feeling of discomfort when holding two contradictory beliefs — this is why people tend to justify their decisions, even when they know they're wrong.",
+    "Dreams happen during REM sleep, when your brain is more active than when you're awake, but your body is temporarily paralyzed to prevent acting them out.",
+    "Around 12% of people dream in black and white.",
+    "Venus is the only planet to spin clockwise",
+    " Just like Earth has earthquakes, the moon experiences seismic activity, known as moonquakes. They are caused by tidal forces from Earth’s gravity, as well as by meteorite impacts."
   ];
 
   const [fact, setFact] = useState("");
@@ -31,21 +31,21 @@ export default function AboutPage() {
   
   // Image captions for Instagram-like feel
   const imageCaptions = [
-    "Living my best life ✨ #blessed #memories",
-    "Game day vibes! First football experience and it was EPIC 🏈 #gameday",
-    "Beach days = best days 🌊☀️ #throwback",
-    "Valentine's Day 2024 with my favorite people ❤️ #love",
-    "That moment when you finally nail the routine 💃 #firstperformance #dance",
-    "Earned my new belt today! Hard work pays off 🥋 #taekwondo #martialarts",
-    "Practice makes perfect 🥋 #disciplineequalsmastery",
-    "Another day, another training session 💪 #nevergiveup",
-    "Getting lost in a good book is my favorite escape 📚 #bookworm #currentlyreading",
-    "Morning training session ✅ #dedication",
-    "The journey continues 🥋 #blackbeltmindset",
-    "Today's practice was intense but worth it! #growth",
-    "Pushing my limits everyday 💯 #taekwondo",
-    "Form practice today 🥋 #precision #focus",
-    "Never skip training day 💪 #consistency"
+    "Summer 2024",
+    "First football game feat. Riya",
+    "Me in one of my favorite places (13 years ago)",
+    "Galentines (feat. Riya again)",
+    "First Dance Performance",
+    "Taekwondo Champs 2025",
+    "Reading and avoiding my responsibilities",
+    "View in Hawaii",
+    "The best city in the world",
+    "Travelling",
+    "Hoco 25'",
+    "ASB fugitive at 11:00 pm",
+    "Classical performance in 2024",
+    "Dubai in 2014",
+    "Fall in 2023"
   ];
     
   return (
@@ -117,7 +117,7 @@ export default function AboutPage() {
         
         <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
           <img 
-            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            src="/images/taekwondochamps25.png" 
             alt="Taekwondo" 
             className="w-full aspect-square object-cover rounded" 
           />
@@ -126,8 +126,8 @@ export default function AboutPage() {
         
         <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
           <img 
-            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
-            alt="Taekwondo" 
+            src="https://i.pinimg.com/736x/4a/08/c5/4a08c55c717d7091ce674aa7e08eccc1.jpg" 
+            alt="barnes and nobles" 
             className="w-full aspect-square object-cover rounded" 
           />
           <p className="text-sm mt-2 px-1">{imageCaptions[6]}</p>
@@ -135,8 +135,8 @@ export default function AboutPage() {
         
         <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
           <img 
-            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
-            alt="Taekwondo" 
+            src="/images/viewinhawaii.jpg" 
+            alt="barnesandnobles" 
             className="w-full aspect-square object-cover rounded" 
           />
           <p className="text-sm mt-2 px-1">{imageCaptions[7]}</p>
@@ -144,7 +144,7 @@ export default function AboutPage() {
         
         <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
           <img 
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhJSLeRYwQGe_hW6KqyXyhm1B_4JW9UwSdlg&s" 
+            src="https://i.pinimg.com/736x/fa/ce/ae/faceae7d4c04c3da73138767bd56118b.jpg" 
             alt="Reading" 
             className="w-full aspect-square object-cover rounded" 
           />
@@ -153,7 +153,7 @@ export default function AboutPage() {
         
         <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
           <img 
-            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            src="/images/travel.jpg" 
             alt="Taekwondo" 
             className="w-full aspect-square object-cover rounded" 
           />
@@ -162,7 +162,7 @@ export default function AboutPage() {
         
         <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
           <img 
-            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            src="/images/hoco25.jpg" 
             alt="Taekwondo" 
             className="w-full aspect-square object-cover rounded" 
           />
@@ -171,7 +171,7 @@ export default function AboutPage() {
         
         <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
           <img 
-            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            src="/images/asbfugitive.jpg" 
             alt="Taekwondo" 
             className="w-full aspect-square object-cover rounded" 
           />
@@ -180,7 +180,7 @@ export default function AboutPage() {
         
         <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
           <img 
-            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            src="/images/kathak2024.jpg" 
             alt="Taekwondo" 
             className="w-full aspect-square object-cover rounded" 
           />
@@ -189,7 +189,7 @@ export default function AboutPage() {
         
         <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
           <img 
-            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            src="/images/dubai2014.jpg" 
             alt="Taekwondo" 
             className="w-full aspect-square object-cover rounded" 
           />
@@ -198,7 +198,7 @@ export default function AboutPage() {
         
         <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
           <img 
-            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            src="/images/fall2023.jpg" 
             alt="Taekwondo" 
             className="w-full aspect-square object-cover rounded" 
           />
@@ -238,10 +238,10 @@ export default function AboutPage() {
         
         <a 
           className="px-4 py-2 bg-lime-500 text-white rounded font-medium hover:bg-lime-600 transition-colors" 
-          href="https://www.chess.com/" 
+          href="https://www.broadway.com/?gad_source=1&gclid=Cj0KCQjwhr6_BhD4ARIsAH1YdjC5HG73H-xl7rOVYFyyGIXkdwmS7B1kT5_OZNv7fblSLsSfe1LBWl4aAumSEALw_wcB" 
           target="_blank"
         >
-          Chess.com
+          Broadway
         </a>
         
         {/* Google button using onClick function */}

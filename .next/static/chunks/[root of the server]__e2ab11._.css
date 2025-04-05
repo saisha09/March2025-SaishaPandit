@@ -5548,6 +5548,11 @@ img, video {
   background-color: rgb(251 113 133 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-pink-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 24 93 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:text-danger-600:hover {
   --tw-text-opacity: 1;
   color: hsl(var(--heroui-danger-600) / var(--heroui-danger-600-opacity, var(--tw-text-opacity)));
