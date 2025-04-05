@@ -16,7 +16,7 @@ export default function RecipesPage() {
           { Footer content }
         </footer>
       </div>
-      Note: We need Flexible Layout so use Tailwind CSS's responsive class which switch from a column layout on mobile to a row layout on larger screens.
+      Note: We need Flexible Layout so use Tailwind CSS"s responsive class which switch from a column layout on mobile to a row layout on larger screens.
       flex flex-col min-h-screen: Creates a vertical layout that fills at least the full height of the viewport
       flex-grow container mx-auto px-4 py-8: Main content expands to fill available space, is centered horizontally with padding
       Footer placement at the bottom      
@@ -32,7 +32,7 @@ export default function RecipesPage() {
           How to use template literals with Tailwind for conditional styling
           {/ Tabs /}
             <div className="flex border-b border-gray-200 mb-6">
-              <button className={`py-2 px-4 font-medium ${activeTab === 'recipe' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-600'}`}>
+              <button className={`py-2 px-4 font-medium ${activeTab === "recipe" ? "text-blue-600 border-b-2 border-blue-600" : "text-gray-600"}`}>
                 Recipe
               </button>
               {/ Other tabs /}
@@ -40,27 +40,27 @@ export default function RecipesPage() {
           */}
           <div className="flex border-b border-gray-200 mb-6">
             <button 
-              className={`py-2 px-4 font-medium ${activeTab === 'recipe' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-600'}`}
-              onClick={() => setActiveTab('recipe')}
+              className={`py-2 px-4 font-medium ${activeTab === "recipe" ? "text-blue-600 border-b-2 border-blue-600" : "text-gray-600"}`}
+              onClick={() => setActiveTab("recipe")}
             >
               Recipe
             </button>
             <button 
-              className={`py-2 px-4 font-medium ${activeTab === 'ingredients' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-600'}`}
-              onClick={() => setActiveTab('ingredients')}
+              className={`py-2 px-4 font-medium ${activeTab === "ingredients" ? "text-blue-600 border-b-2 border-blue-600" : "text-gray-600"}`}
+              onClick={() => setActiveTab("ingredients")}
             >
               Ingredients
             </button>
             <button 
-              className={`py-2 px-4 font-medium ${activeTab === 'instructions' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-600'}`}
-              onClick={() => setActiveTab('instructions')}
+              className={`py-2 px-4 font-medium ${activeTab === "instructions" ? "text-blue-600 border-b-2 border-blue-600" : "text-gray-600"}`}
+              onClick={() => setActiveTab("instructions")}
             >
               Instructions
             </button>
           </div>
           
           {/* Here we show Recipe Overview to users */}
-          {activeTab === 'recipe' && (
+          {activeTab === "recipe" && (
             <div className="flex flex-col md:flex-row gap-6">
               <div className="md:w-1/2">
                 {/*Image Sizing: The image is set to w-full with appropriate max-width, so it will scale properly on different screen sizes. 
@@ -81,7 +81,7 @@ export default function RecipesPage() {
               <div className="md:w-1/2">
                 <h2 className="text-2xl font-semibold mb-4">Perfect Homemade Cinnamon Rolls</h2>
                 <p className="text-gray-700 mb-4">
-                  These soft, fluffy cinnamon rolls are the perfect weekend breakfast treat. Made with a simple dough and filled with a cinnamon-sugar mixture, they're topped with a cream cheese frosting that makes them irresistible.
+                  These soft, fluffy cinnamon rolls are the perfect weekend breakfast treat - filled with a cinnamon-sugar mixture - yummy!!.
                 </p>
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div>
@@ -106,7 +106,7 @@ export default function RecipesPage() {
           )}
           
           {/* This is the Ingredients Tab - Tables in the ingredients tab have overflow-x-auto to allow horizontal scrolling on smaller screens if needed.*/}
-          {activeTab === 'ingredients' && (
+          {activeTab === "ingredients" && (
             <div>
               <div className="bg-gray-50 p-6 rounded-lg mb-6">
                 <h3 className="text-xl font-semibold mb-4">For the Dough</h3>
@@ -215,7 +215,7 @@ export default function RecipesPage() {
           )}
           
           {/* Here we put the Instructions Tab */}
-          {activeTab === 'instructions' && (
+          {activeTab === "instructions" && (
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold mb-3">Make the dough:</h3>
@@ -243,7 +243,7 @@ export default function RecipesPage() {
               
               <div>
                 <h3 className="text-xl font-semibold mb-3">Make the icing:</h3>
-                <p className="pl-2">In a medium bowl using a handheld or stand mixer fitted with a paddle or whisk attachment, beat the cream cheese on high speed until smooth and creamy. Add the butter and beat until smooth and combined, then beat in the confectioners' sugar and vanilla until combined. Using a knife or icing spatula, spread the icing over the warm rolls and serve immediately.</p>
+                <p className="pl-2">In a medium bowl using a handheld or stand mixer fited with a padle or whisk attachment, beat the cream cheese on high speed until smooth and creamy. Add the butter and beat until smooth and combined, then beat in the confectioners sugar and vanilla until combined. Using a knife or icing spatula, spread the icing over the warm rolls and serve immediately.</p>
               </div>
               
               <div className="pt-4 border-t border-gray-200">

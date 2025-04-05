@@ -13,10 +13,10 @@ export default function AboutPage() {
     "The scent you smell when rain hits dry ground is called petrichor",
     "The average time spent Infrasound (sounds below human hearing) can be used in horror movie soundtracks to make viewers feel uneasy without realizing why",
     "During the Cold War, ballet dancers were used as cultural ambassadors by the USSR and USA — seen as proof of cultural superiority",
-    "Mirages happen more in summer heat due to refracted light over hot surfaces — they're not hallucinations but actual optical effects",
-    "The Looking Glass Self theory (by Charles Horton Cooley) suggests we shape our identities based on how we think others see us — even if it's wrong.",
-    "Cognitive dissonance is the feeling of discomfort when holding two contradictory beliefs — this is why people tend to justify their decisions, even when they know they're wrong.",
-    "Dreams happen during REM sleep, when your brain is more active than when you're awake, but your body is temporarily paralyzed to prevent acting them out.",
+    "Mirages happen more in summer heat due to refracted light over hot surfaces — they are not hallucinations but actual optical effects",
+    "The Looking Glass Self theory (by Charles Horton Cooley) suggests we shape our identities based on how we think others see us — even if it is wrong.",
+    "Cognitive dissonance is the feeling of discomfort when holding two contradictory beliefs — this is why people tend to justify their decisions, even when they know they are wrong.",
+    "Dreams happen during REM sleep, when your brain is more active than when you are awake, but your body is temporarily paralyzed to prevent acting them out.",
     "Around 12% of people dream in black and white.",
     "Venus is the only planet to spin clockwise",
     " Just like Earth has earthquakes, the moon experiences seismic activity, known as moonquakes. They are caused by tidal forces from Earth’s gravity, as well as by meteorite impacts."
@@ -41,7 +41,7 @@ export default function AboutPage() {
     "View in Hawaii",
     "The best city in the world",
     "Travelling",
-    "Hoco 25'",
+    "Hoco 25",
     "ASB fugitive at 11:00 pm",
     "Classical performance in 2024",
     "Dubai in 2014",
@@ -55,7 +55,7 @@ export default function AboutPage() {
       
       {/* Image gallery using flexbox for a responsive layout
           - flex: enables flexbox layout
-          - flex-wrap: allows items to wrap to next line when they don't fit
+          - flex-wrap: allows items to wrap to next line when they do not fit
           - justify-center: centers the flex items horizontally
           - gap-6: adds consistent spacing between all items (horizontal and vertical)
           - my-6: adds margin top and bottom for section spacing */}
