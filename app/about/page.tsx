@@ -13,8 +13,8 @@ export default function AboutPage() {
     "The scent you smell when rain hits dry ground is called petrichor",
     "The average time spent Infrasound (sounds below human hearing) can be used in horror movie soundtracks to make viewers feel uneasy without realizing why.on (web)pages is 54 seconds, while [time spent on] blog posts average 3-5 minutes.",
     "During the Cold War, ballet dancers were used as cultural ambassadors by the USSR and USA — seen as proof of cultural superiority.s the same way we have unique fingerprints.",
-    "Mirages happen more in summer heat due to refracted light over hot surfaces — they’re not hallucinations but actual optical effects.do",
-    "The “Looking Glass Self” theory (by Charles Horton Cooley) suggests we shape our identities based on how we think others see us — even if it’s wrong.",
+    "Mirages happen more in summer heat due to refracted light over hot surfaces — they're not hallucinations but actual optical effects.do",
+    "The Looking Glass Self theory (by Charles Horton Cooley) suggests we shape our identities based on how we think others see us — even if it's wrong.",
     "Item 6",
     "Item 7",
     "Item 8",
@@ -28,6 +28,25 @@ export default function AboutPage() {
     const randomIndex = Math.floor(Math.random() * facts.length);
     setFact(facts[randomIndex]);
   };
+  
+  // Image captions for Instagram-like feel
+  const imageCaptions = [
+    "Living my best life ✨ #blessed #memories",
+    "Game day vibes! First football experience and it was EPIC 🏈 #gameday",
+    "Beach days = best days 🌊☀️ #throwback",
+    "Valentine's Day 2024 with my favorite people ❤️ #love",
+    "That moment when you finally nail the routine 💃 #firstperformance #dance",
+    "Earned my new belt today! Hard work pays off 🥋 #taekwondo #martialarts",
+    "Practice makes perfect 🥋 #disciplineequalsmastery",
+    "Another day, another training session 💪 #nevergiveup",
+    "Getting lost in a good book is my favorite escape 📚 #bookworm #currentlyreading",
+    "Morning training session ✅ #dedication",
+    "The journey continues 🥋 #blackbeltmindset",
+    "Today's practice was intense but worth it! #growth",
+    "Pushing my limits everyday 💯 #taekwondo",
+    "Form practice today 🥋 #precision #focus",
+    "Never skip training day 💪 #consistency"
+  ];
     
   return (
     <div className="p-4 max-w-7xl mx-auto">
@@ -51,86 +70,140 @@ export default function AboutPage() {
             - aspect-square: maintains 1:1 ratio regardless of width
             - object-cover: ensures image fills space without distortion
             - rounded: adds subtle rounded corners */}
-        <img 
-          src="/images/saisha.jpg" 
-          alt="Saisha" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
-        <img 
-          src="/images/firstfootballgame.jpg" 
-          alt="Image placeholder" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover bg-gray-200 rounded" 
-        />
-        <img 
-          src="/images/07.24.2011beach.jpg" 
-          alt="Image placeholder" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover bg-gray-200 rounded" 
-        />
-        <img 
-          src="/images/valentines24.jpg" 
-          alt="Image placeholder" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover bg-gray-200 rounded" 
-        />
-        <img
-          src="/images/firstdanceperformance.png" 
-          alt="Dance" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
-        <img 
-          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
-          alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
-        <img 
-          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
-          alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
-        <img 
-          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
-          alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
-        <img 
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhJSLeRYwQGe_hW6KqyXyhm1B_4JW9UwSdlg&s" 
-          alt="Reading" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
-        <img 
-          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
-          alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
-        <img 
-          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
-          alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
-        <img 
-          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
-          alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
-        <img 
-          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
-          alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
-        <img 
-          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
-          alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
-        <img 
-          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
-          alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
-        <img 
-          src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
-          alt="Taekwondo" 
-          className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72 aspect-square object-cover rounded" 
-        />
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="/images/saisha.jpg" 
+            alt="Saisha" 
+            className="w-full aspect-square object-cover rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[0]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="/images/firstfootballgame.jpg" 
+            alt="Image placeholder" 
+            className="w-full aspect-square object-cover bg-gray-200 rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[1]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="/images/07.24.2011beach.jpg" 
+            alt="Image placeholder" 
+            className="w-full aspect-square object-cover bg-gray-200 rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[2]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="/images/valentines24.jpg" 
+            alt="Image placeholder" 
+            className="w-full aspect-square object-cover bg-gray-200 rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[3]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img
+            src="/images/firstdanceperformance.png" 
+            alt="Dance" 
+            className="w-full aspect-square object-cover rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[4]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            alt="Taekwondo" 
+            className="w-full aspect-square object-cover rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[5]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            alt="Taekwondo" 
+            className="w-full aspect-square object-cover rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[6]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            alt="Taekwondo" 
+            className="w-full aspect-square object-cover rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[7]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhJSLeRYwQGe_hW6KqyXyhm1B_4JW9UwSdlg&s" 
+            alt="Reading" 
+            className="w-full aspect-square object-cover rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[8]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            alt="Taekwondo" 
+            className="w-full aspect-square object-cover rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[9]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            alt="Taekwondo" 
+            className="w-full aspect-square object-cover rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[10]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            alt="Taekwondo" 
+            className="w-full aspect-square object-cover rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[11]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            alt="Taekwondo" 
+            className="w-full aspect-square object-cover rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[12]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            alt="Taekwondo" 
+            className="w-full aspect-square object-cover rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[13]}</p>
+        </div>
+        
+        <div className="w-full sm:w-5/12 md:w-1/3 lg:w-1/5 max-w-80 lg:max-w-72">
+          <img 
+            src="https://i.pinimg.com/474x/b4/29/bd/b429bdd9331b56226dd8903ffe9073e6.jpg" 
+            alt="Taekwondo" 
+            className="w-full aspect-square object-cover rounded" 
+          />
+          <p className="text-sm mt-2 px-1">{imageCaptions[14]}</p>
+        </div>
       </div>
       
       {/* Buttons section with flexbox for responsiveness
