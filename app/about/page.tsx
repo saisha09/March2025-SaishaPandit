@@ -1,12 +1,34 @@
 "use client";
 
 import { title } from "@/components/primitives";
+import { useState } from "react";
 
 export default function AboutPage() {
   const goToGoogle = () => {
     window.open("https://www.google.com", "_blank");
   };
 
+  const facts = [
+    "Paris has more bookstores per square mile than almost any other city in the world. The famous Shakespeare & Company bookstore has beds inside for writers to sleep in exchange for helping out in the shop.",
+    "The scent you smell when rain hits dry ground is called petrichor",
+    "The average time spent Infrasound (sounds below human hearing) can be used in horror movie soundtracks to make viewers feel uneasy without realizing why.on (web)pages is 54 seconds, while [time spent on] blog posts average 3-5 minutes.",
+    "During the Cold War, ballet dancers were used as cultural ambassadors by the USSR and USA — seen as proof of cultural superiority.s the same way we have unique fingerprints.",
+    "Mirages happen more in summer heat due to refracted light over hot surfaces — they’re not hallucinations but actual optical effects.do",
+    "The “Looking Glass Self” theory (by Charles Horton Cooley) suggests we shape our identities based on how we think others see us — even if it’s wrong.",
+    "Item 6",
+    "Item 7",
+    "Item 8",
+    "Item 9",
+    "Item 10"
+  ];
+
+  const [fact, setFact] = useState("");
+  
+  const getFact = () => {
+    const randomIndex = Math.floor(Math.random() * facts.length);
+    setFact(facts[randomIndex]);
+  };
+    
   return (
     <div className="p-4 max-w-7xl mx-auto">
       {/* Main title */}
@@ -156,6 +178,20 @@ export default function AboutPage() {
         >
           Google
         </button>
+        <div className="flex flex-col items-center p-8">
+      <button 
+        onClick={getFact} 
+        className="bg-rose-300 text-black font-medium py-2 px-4 rounded-full hover:bg-rose-400 transition-colors"
+      >
+        Press for Fact
+      </button>
+      
+      {fact && (
+        <div className="mt-4 p-4 bg-gray-100 rounded-md max-w-md">
+          <p className="text-center">{fact}</p>
+        </div>
+      )}
+    </div>
       </div>
     </div>
   );
