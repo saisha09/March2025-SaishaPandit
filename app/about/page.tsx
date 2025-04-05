@@ -1,4 +1,5 @@
 import { title } from "@/components/primitives";
+// import link from "next/link"; this is for buttons
 
 export default function AboutPage() {
   return (
@@ -16,7 +17,7 @@ export default function AboutPage() {
       <a href="https://www.pinterest.com/">Link to Pinterest</a>
       <a className="bg-lime-500 m-3 p-3" href="https://www.chess.com/" target="_blank">Chess.com</a>
 
-    <Button href="google.com">Google</Button>
+    <Button as={link} href="google.com" className= "bg-red-950" target="_blank">Google</Button>
 
     </div>
   );
